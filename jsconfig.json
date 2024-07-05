@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "baseUrl": "src",
+        "paths": {
+            "@src/*": ["./*"],
+            "@asset/*": ["assets/*"],
+            "@image/*": ["assets/images/*"],
+            "@icon/*": ["assets/icon/*"],
+            "@view/*": ["views/*"],
+            "@component/*": ["components/*"],
+            "@style/*": ["styles/*"],
+            "@store/*": ["store/*"],
+            "@helper/*": ["helpers/*"],
+            "@context/*": ["contexts/*"],
+            "@hook/*": ["hooks/*"],
+            "@service/*": ["services/*"]
+        }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"],
+    "include": ["src"]
+}

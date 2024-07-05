@@ -1,0 +1,16 @@
+{
+    "menu2": [
+        {
+            "key": "/tempPage",
+            "label": "TempPage"
+        },
+        {
+            "key": "/tempPage2",
+            "label": "TempPage2"
+        },
+        {
+            "key": "/tableExample",
+            "label": "TableExample"
+        }
+    ]
+}

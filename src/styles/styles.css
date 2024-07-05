@@ -1,0 +1,47 @@
+:root {
+    --subtitle-light: rgba(174, 181, 199, 0.507);
+    --subtitle-dark: #aa9999;
+}
+
+:root {
+    --subtitle-light: rgba(174, 181, 199, 0.507);
+    --subtitle-dark: #aa9999;
+}
+
+body {
+    margin: 0px;
+}
+
+.ant-popover-inner {
+    padding: 0px !important;
+}
+
+.ant-card-meta-title {
+    white-space: pre-line;
+}
+
+.ant-card-head-title {
+    text-overflow: unset !important;
+    white-space: unset !important;
+}
+
+.menu-item-tooltip-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+
+.ant-menu-submenu-popup {
+    display: none;
+}
+
+.custom-class {
+    background-color: red;
+}
